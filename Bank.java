@@ -1,8 +1,7 @@
 class Bank {
-  public static void main(String[] args){
     float rateOfInterest = 0.1;
-    public void getRateOfInterest(){
-      System.out.println(rateOfInterest)
+    public void getRateOfInterest(rateOfInterest){
+      return rateOfInterest;
     }
   }
 }
