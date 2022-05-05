@@ -1,15 +1,13 @@
 class Bank {
-  static double getRateOfInterest(){return 0.1;}
-  // public void getRateOfInterest(){
-  //   System.out.println(rateOfInterest);
+  float rateOfInterest = 0.1f; // float numbers has f at the end.
+  // static double getRateOfInterest(){return rateOfInterest;}
+  // public static void main(String[] args){
+  //   System.out.println(getRateOfInterest());
   // }
-  public static void main(String[] args){
-    System.out.println(getRateOfInterest());
-  }
 }
 
 class SBI extends Bank {
-  static double getRateOfInterest(){return 0.08;}
+  float rateOfInterest = 0.08f;
 }
 
 // class ICICI extends Bank {
