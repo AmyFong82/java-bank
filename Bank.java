@@ -1,23 +1,22 @@
 class Bank {
-  public void float getRateOfInterest() {
-    return 0.1;
+  public static void main(String[] args){
+    float rateOfInterest = 0.1;
+    public void getRateOfInterest(){
+      System.out.println(rateOfInterest)
+    }
   }
 }
 
 class SBI extends Bank {
-  public void float getRateOfInterest() {
-    return 0.08;
+  float rateOfInterest = 0.08;
   }
 }
 
 class ICICI extends Bank {
-  public void float getRateOfInterest() {
-    return 0.07;
-  }
+  float rateOfInterest = 0.07;
+
 }
 
 class AXIS extends Bank {
-  public void float getRateOfInterest() {
-    return 0.09;
-  }
+  float rateOfInterest = 0.09;
 }
